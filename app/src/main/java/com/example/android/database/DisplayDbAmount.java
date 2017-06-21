@@ -18,6 +18,8 @@ public class DisplayDbAmount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_db_amount);
 
+        displayDatabaseInfo();
+
 
     }
 
