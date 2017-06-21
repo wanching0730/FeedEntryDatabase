@@ -33,7 +33,7 @@ public class DisplayDbAmount extends AppCompatActivity {
 
         // Perform this raw SQL query "SELECT * FROM pets"
         // to get a Cursor that contains all rows from the pets table.
-        Cursor cursor = db.rawQuery("SELECT * FROM" + FeedReaderContract.FeedEntry.TABLE_NAME, null);
+        Cursor cursor = db.rawQuery("SELECT * FROM " + FeedReaderContract.FeedEntry.TABLE_NAME, null);
 
         try {
             dbAmount = (TextView) findViewById(R.id.db_amount);
